@@ -27,7 +27,7 @@ pass_count = st.number_input('Passenger count')
 st.write('Passenger count ', pass_count)
 
 # API endpoint
-url = 'https://taxifare-qlahvylymq-ew.a.run.app/predict'
+url = MY_API
 params = {'pickup_datetime': d,
           'pickup_longitude': pickup_long,
           'pickup_latitude': pickup_lat,
